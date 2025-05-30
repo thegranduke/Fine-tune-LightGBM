@@ -1,0 +1,133 @@
+Bayesian Optimization Results:
+==============================
+
+Optimization Summary:
+--------------------
+Number of trials: 50
+Best trial number: 34
+Best score (macro F1): 0.9532
+
+Best Hyperparameters:
+--------------------
+learning_rate: 0.15849662777836063
+num_leaves: 69
+max_depth: 17
+min_child_samples: 31
+subsample: 0.7594727684003948
+colsample_bytree: 0.5012064279122384
+lambda_l1: 1.4926027400096067
+lambda_l2: 3.1974719086891845
+
+Hyperparameter Importance:
+--------------------
+colsample_bytree: 0.5274
+max_depth: 0.1762
+lambda_l1: 0.1105
+subsample: 0.0684
+lambda_l2: 0.0398
+learning_rate: 0.0309
+min_child_samples: 0.0277
+num_leaves: 0.0190
+
+Top 10 Trials:
+--------------------
+Trial 34: Score = 0.9532
+    learning_rate: 0.15849662777836063
+    num_leaves: 69
+    max_depth: 17
+    min_child_samples: 31
+    subsample: 0.7594727684003948
+    colsample_bytree: 0.5012064279122384
+    lambda_l1: 1.4926027400096067
+    lambda_l2: 3.1974719086891845
+
+Trial 33: Score = 0.9515
+    learning_rate: 0.14371238436128767
+    num_leaves: 86
+    max_depth: 18
+    min_child_samples: 30
+    subsample: 0.75749027523869
+    colsample_bytree: 0.5600121467045823
+    lambda_l1: 1.58893577013402
+    lambda_l2: 3.0903995718376263
+
+Trial 42: Score = 0.9509
+    learning_rate: 0.07095549828385918
+    num_leaves: 95
+    max_depth: 20
+    min_child_samples: 33
+    subsample: 0.6548485959152027
+    colsample_bytree: 0.5666367091608581
+    lambda_l1: 1.803686739215137
+    lambda_l2: 3.384950981075642
+
+Trial 32: Score = 0.9507
+    learning_rate: 0.14295626295642863
+    num_leaves: 81
+    max_depth: 18
+    min_child_samples: 30
+    subsample: 0.7671040358344623
+    colsample_bytree: 0.5583378402546819
+    lambda_l1: 1.5745316230489674
+    lambda_l2: 2.0506585033038265
+
+Trial 49: Score = 0.9498
+    learning_rate: 0.18851554951156793
+    num_leaves: 92
+    max_depth: 18
+    min_child_samples: 36
+    subsample: 0.7554557176584874
+    colsample_bytree: 0.6100327265847402
+    lambda_l1: 1.2557763909177395
+    lambda_l2: 3.584814022833715
+
+Trial 31: Score = 0.9497
+    learning_rate: 0.15451586146065244
+    num_leaves: 82
+    max_depth: 18
+    min_child_samples: 29
+    subsample: 0.7733839565565725
+    colsample_bytree: 0.5518472497451951
+    lambda_l1: 1.260887883727774
+    lambda_l2: 3.118887748482365
+
+Trial 27: Score = 0.9496
+    learning_rate: 0.13290253595134566
+    num_leaves: 68
+    max_depth: 17
+    min_child_samples: 30
+    subsample: 0.7889367261278714
+    colsample_bytree: 0.505060637258387
+    lambda_l1: 1.4738102796358163
+    lambda_l2: 2.011615907935761
+
+Trial 35: Score = 0.9495
+    learning_rate: 0.005074206951446959
+    num_leaves: 54
+    max_depth: 17
+    min_child_samples: 31
+    subsample: 0.7406442037478334
+    colsample_bytree: 0.5596444345798454
+    lambda_l1: 0.7842691765690031
+    lambda_l2: 3.0865276221598643
+
+Trial 38: Score = 0.9495
+    learning_rate: 0.17222200062907875
+    num_leaves: 52
+    max_depth: 15
+    min_child_samples: 34
+    subsample: 0.720236805732221
+    colsample_bytree: 0.6838061137808631
+    lambda_l1: 0.6806901726450163
+    lambda_l2: 4.245720719149447
+
+Trial 29: Score = 0.9493
+    learning_rate: 0.12646124115415502
+    num_leaves: 75
+    max_depth: 18
+    min_child_samples: 28
+    subsample: 0.7905677433121244
+    colsample_bytree: 0.5032013159978302
+    lambda_l1: 1.5035869372133122
+    lambda_l2: 1.9521306300919399
+

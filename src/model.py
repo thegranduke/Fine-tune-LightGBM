@@ -2,7 +2,7 @@ import numpy as np
 import lightgbm as lgb
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report
 from sklearn.model_selection import LeaveOneGroupOut, GroupShuffleSplit
-from typing import Dict, Tuple, Any
+from typing import Dict, Tuple, Any, List
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -114,26 +114,33 @@ def perform_loso_cv(
         'std_f1': np.std(cv_f1_scores)
     }
 
-def plot_confusion_matrix(cm: np.ndarray, title: str, save_path: str = None):
+def plot_confusion_matrix(
+    conf_matrix: np.ndarray,
+    title: str,
+    class_names: List[str] = None,
+    save_path: str = None
+):
     """
-    Plot and optionally save a confusion matrix.
+    Plot confusion matrix.
     
     Args:
-        cm: Confusion matrix
-        title: Plot title
-        save_path: Path to save the plot (optional)
+        conf_matrix: Confusion matrix to plot
+        title: Title for the plot
+        class_names: List of class names for axis labels
+        save_path: Path to save the plot
     """
-    plt.figure(figsize=(12, 10))
-    sns.heatmap(cm, annot=True, fmt='.0f', cmap='Blues',
-                xticklabels=ACTIVITY_LABELS,
-                yticklabels=ACTIVITY_LABELS)
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(
+        conf_matrix,
+        annot=True,
+        fmt='.0f',
+        cmap='Blues',
+        xticklabels=class_names if class_names else 'auto',
+        yticklabels=class_names if class_names else 'auto'
+    )
     plt.title(title)
-    plt.ylabel('True Activity')
-    plt.xlabel('Predicted Activity')
-    
-    # Rotate x-axis labels for better readability
-    plt.xticks(rotation=45, ha='right')
-    plt.yticks(rotation=0)
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
     
     if save_path:
         plt.savefig(save_path, bbox_inches='tight')

@@ -1,0 +1,88 @@
+Model Evaluation Results:
+==============================
+
+Test Set Results:
+--------------------
+Accuracy: 0.9065
+Macro F1: 0.8796
+
+Classification Report:
+--------------------
+              precision    recall  f1-score   support
+
+  Downstairs       0.53      0.80      0.64       529
+     Jogging       1.00      0.97      0.99       557
+     Sitting       1.00      1.00      1.00      1575
+    Standing       1.00      1.00      1.00      1294
+    Upstairs       0.80      0.79      0.79       676
+     Walking       0.95      0.79      0.86      1371
+
+    accuracy                           0.91      6002
+   macro avg       0.88      0.89      0.88      6002
+weighted avg       0.92      0.91      0.91      6002
+
+Cross-validation Results:
+--------------------
+Mean Accuracy: 0.9360 (±0.0544)
+Mean Macro F1: 0.9270 (±0.0513)
+Number of CV folds: 19
+
+Per-fold Results:
+--------------------
+Fold 1:
+  Accuracy: 0.9864
+  Macro F1: 0.9854
+Fold 2:
+  Accuracy: 0.9409
+  Macro F1: 0.9213
+Fold 3:
+  Accuracy: 0.9518
+  Macro F1: 0.9422
+Fold 4:
+  Accuracy: 0.9006
+  Macro F1: 0.9120
+Fold 5:
+  Accuracy: 0.9878
+  Macro F1: 0.9831
+Fold 6:
+  Accuracy: 0.8475
+  Macro F1: 0.8520
+Fold 7:
+  Accuracy: 0.9490
+  Macro F1: 0.9304
+Fold 8:
+  Accuracy: 0.8395
+  Macro F1: 0.8261
+Fold 9:
+  Accuracy: 0.9882
+  Macro F1: 0.9834
+Fold 10:
+  Accuracy: 0.9610
+  Macro F1: 0.9187
+Fold 11:
+  Accuracy: 0.9637
+  Macro F1: 0.9408
+Fold 12:
+  Accuracy: 0.9336
+  Macro F1: 0.8964
+Fold 13:
+  Accuracy: 0.8090
+  Macro F1: 0.8081
+Fold 14:
+  Accuracy: 0.9785
+  Macro F1: 0.9775
+Fold 15:
+  Accuracy: 0.9665
+  Macro F1: 0.9567
+Fold 16:
+  Accuracy: 0.9659
+  Macro F1: 0.9569
+Fold 17:
+  Accuracy: 0.9591
+  Macro F1: 0.9469
+Fold 18:
+  Accuracy: 0.8659
+  Macro F1: 0.8956
+Fold 19:
+  Accuracy: 0.9892
+  Macro F1: 0.9801

@@ -1,0 +1,46 @@
+Feature Pruning Results:
+==============================
+
+Pruning Summary:
+--------------------
+Total features: 54
+Retained features: 43
+Dropped features: 11
+Pruning threshold: 20.00%
+
+Top 20 Most Important Features:
+--------------------
+channel_1_max: 0.2044 (±468.1513)
+channel_1_min: 0.1989 (±552.8655)
+channel_1_std: 0.1314 (±1533.3229)
+channel_4_mean: 0.1147 (±691.6917)
+channel_2_std: 0.0707 (±946.6397)
+channel_3_dominant_freq: 0.0511 (±394.2615)
+channel_4_min: 0.0233 (±788.1844)
+channel_1_dominant_freq: 0.0200 (±666.0834)
+channel_2_mean: 0.0197 (±550.9270)
+channel_3_mean_freq: 0.0141 (±1210.5850)
+channel_5_dominant_freq: 0.0134 (±418.9434)
+channel_2_rms: 0.0113 (±1182.5415)
+channel_1_rms: 0.0111 (±1264.5934)
+channel_3_rms: 0.0105 (±1123.0397)
+channel_3_std: 0.0084 (±1152.0506)
+channel_0_rms: 0.0076 (±570.7154)
+channel_2_mean_freq: 0.0073 (±365.5764)
+channel_4_dominant_freq: 0.0056 (±349.2544)
+channel_5_std: 0.0053 (±784.7892)
+channel_1_mean: 0.0052 (±635.4463)
+
+Dropped Features:
+--------------------
+channel_2_freq_variance: 0.0008 (±51.3729)
+channel_1_freq_variance: 0.0008 (±31.2999)
+channel_0_freq_variance: 0.0005 (±28.4800)
+channel_5_freq_variance: 0.0004 (±33.7229)
+channel_4_freq_variance: 0.0003 (±23.4911)
+channel_3_spectral_energy: 0.0000 (±0.0000)
+channel_4_spectral_energy: 0.0000 (±0.0000)
+channel_2_spectral_energy: 0.0000 (±0.0000)
+channel_1_spectral_energy: 0.0000 (±0.0000)
+channel_5_spectral_energy: 0.0000 (±0.0000)
+channel_0_spectral_energy: 0.0000 (±0.0000)

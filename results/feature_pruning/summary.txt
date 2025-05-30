@@ -1,0 +1,38 @@
+=== LightGBM Model with Feature Pruning ===
+
+Feature Pruning Summary:
+- Original feature count: 56
+- Features retained: 44 (80.0%)
+- Features dropped: 12 (20.0%)
+
+Overall Performance:
+- Test Accuracy: 0.9044
+- Test Macro F1: 0.8754
+
+Cross-validation Performance:
+- Mean Accuracy: 0.9299 ± 0.0628
+- Mean Macro F1: 0.9199 ± 0.0606
+
+Top 10 Most Important Features:
+1. mean_1
+2. mean_4
+3. max_1
+4. mean_2
+5. std_1
+6. mean_freq_2
+7. min_1
+8. min_2
+9. max_5
+10. mean_0
+
+Bottom 10 Dropped Features:
+1. dominant_freq_2
+2. max_4
+3. freq_variance_2
+4. freq_variance_3
+5. rms_3
+6. freq_variance_0
+7. dominant_freq_1
+8. rms_4
+9. dominant_freq_0
+10. rms_5

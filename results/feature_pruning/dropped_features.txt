@@ -1,0 +1,11 @@
+channel_0_freq_variance
+channel_0_spectral_energy
+channel_1_freq_variance
+channel_1_spectral_energy
+channel_2_freq_variance
+channel_2_spectral_energy
+channel_3_spectral_energy
+channel_4_freq_variance
+channel_4_spectral_energy
+channel_5_freq_variance
+channel_5_spectral_energy

@@ -1,0 +1,49 @@
+{
+    "Model Configuration": {
+        "Model Type": "LightGBM with Feature Pruning",
+        "Feature Pruning": {
+            "pruning_percentage": 20.0,
+            "original_feature_count": 56,
+            "retained_feature_count": 44,
+            "dropped_feature_count": 12
+        }
+    },
+    "Overall Performance": {
+        "Test Set": {
+            "accuracy": 0.9043652115961346,
+            "macro_f1": 0.8754003050857765
+        },
+        "Cross-validation": {
+            "mean_accuracy": 0.929917105950245,
+            "std_accuracy": 0.062836180826552,
+            "mean_f1": 0.9199067993821716,
+            "std_f1": 0.06057088353979578
+        }
+    },
+    "Feature Information": {
+        "Top 10 Important Features": [
+            "mean_1",
+            "mean_4",
+            "max_1",
+            "mean_2",
+            "std_1",
+            "mean_freq_2",
+            "min_1",
+            "min_2",
+            "max_5",
+            "mean_0"
+        ],
+        "Bottom 10 Dropped Features": [
+            "dominant_freq_2",
+            "max_4",
+            "freq_variance_2",
+            "freq_variance_3",
+            "rms_3",
+            "freq_variance_0",
+            "dominant_freq_1",
+            "rms_4",
+            "dominant_freq_0",
+            "rms_5"
+        ]
+    }
+}
