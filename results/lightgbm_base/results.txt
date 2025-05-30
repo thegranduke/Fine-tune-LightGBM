@@ -1,0 +1,22 @@
+Test Set Results:
+Accuracy: 0.9074
+Macro F1: 0.8789
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Downstairs       0.54      0.80      0.64       529
+     Jogging       1.00      0.97      0.98       557
+     Sitting       1.00      1.00      1.00      1575
+    Standing       1.00      1.00      1.00      1294
+    Upstairs       0.80      0.75      0.78       676
+     Walking       0.95      0.81      0.87      1371
+
+    accuracy                           0.91      6002
+   macro avg       0.88      0.89      0.88      6002
+weighted avg       0.92      0.91      0.91      6002
+
+
+Cross-validation Results:
+Mean Accuracy: 0.9292 (±0.0646)
+Mean Macro F1: 0.9195 (±0.0617)
